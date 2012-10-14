@@ -18,7 +18,7 @@
         android:text="@string/button_browse"
         android:onClick="browse" />
     <Button
-        android:id="@+id/Fav/Hist"
+        android:id="@+id/FavHist"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/button_fav_hist"

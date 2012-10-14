@@ -6,17 +6,16 @@
     android:orientation="horizontal" >
     <Button
         android:id="@+id/Favorites"
-        android:wieght="2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button_favorites"
         android:onClick="favorites" />
+
     <Button
         android:id="@+id/History"
-        android:weight="2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/button_history"
-        android:onClick="history" />
+        android:onClick="history"
+        android:text="@string/button_history" />
 
 </LinearLayout>
