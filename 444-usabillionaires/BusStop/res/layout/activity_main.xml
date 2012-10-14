@@ -4,24 +4,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" 
-    android:gravity="center">
+    android:gravity="bottom">
     <Button
         android:id="@+id/MakeTrip"
-        android:background="@android:color/holo_green_light"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/button_plan_trip"
         android:onClick="planTrip" />
     <Button
         android:id="@+id/Browse"
-        android:background="@android:color/holo_orange_light"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/button_browse"
         android:onClick="browse" />
     <Button
         android:id="@+id/Fav/Hist"
-        android:background="@android:color/holo_red_dark"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/button_fav_hist"
