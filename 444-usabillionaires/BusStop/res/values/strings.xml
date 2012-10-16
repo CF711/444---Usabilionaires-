@@ -13,6 +13,10 @@
     <string name="favs_tab">Favorites</string>
     <string name="hist_tab">History</string>
     <string name="button_return">Return</string>
+    <string name="text_select_dest">Select your destination</string>
+    <string name="text_another_dest">Add another destination</string>
+    <string name="text_finish_trip">Finish planning this trip</string>
+    <string name="text_save_to_favs">Save this trip to Favorites</string>
     <string name="text_plan_trip">Select which route you would like to take</string>
     <string name="text_browse">Select the bus stop you would like to know more about</string>
     <string name="menu_settings">Settings</string>

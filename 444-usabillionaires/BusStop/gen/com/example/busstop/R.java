@@ -25,9 +25,14 @@ public final class R {
         public static final int FavHist=0x7f070004;
         public static final int LinearLayout=0x7f070000;
         public static final int LinearLayout01=0x7f070001;
-        public static final int LinearLayout1=0x7f070005;
+        public static final int LinearLayout1=0x7f07000a;
         public static final int MakeTrip=0x7f070002;
-        public static final int menu_settings=0x7f070006;
+        public static final int button_add_dest=0x7f070007;
+        public static final int button_finish_trip=0x7f070008;
+        public static final int button_save_to_favs=0x7f070009;
+        public static final int listView1=0x7f070006;
+        public static final int menu_settings=0x7f07000b;
+        public static final int textView1=0x7f070005;
     }
     public static final class layout {
         public static final int activity_browse=0x7f030000;
@@ -60,18 +65,22 @@ public final class R {
         public static final int button_testhist02=0x7f040008;
         public static final int button_use_trip=0x7f040009;
         public static final int favs_tab=0x7f04000a;
-        public static final int hello_world=0x7f040011;
+        public static final int hello_world=0x7f040015;
         public static final int hist_tab=0x7f04000b;
-        public static final int menu_settings=0x7f04000f;
-        public static final int text_browse=0x7f04000e;
-        public static final int text_plan_trip=0x7f04000d;
-        public static final int title_activity_browse=0x7f040013;
-        public static final int title_activity_fav_history=0x7f040015;
-        public static final int title_activity_favorites=0x7f040016;
-        public static final int title_activity_history=0x7f040014;
-        public static final int title_activity_main=0x7f040010;
-        public static final int title_activity_plan_trip=0x7f040012;
-        public static final int title_activity_reuse_trip=0x7f040017;
+        public static final int menu_settings=0x7f040013;
+        public static final int text_another_dest=0x7f04000e;
+        public static final int text_browse=0x7f040012;
+        public static final int text_finish_trip=0x7f04000f;
+        public static final int text_plan_trip=0x7f040011;
+        public static final int text_save_to_favs=0x7f040010;
+        public static final int text_select_dest=0x7f04000d;
+        public static final int title_activity_browse=0x7f040017;
+        public static final int title_activity_fav_history=0x7f040019;
+        public static final int title_activity_favorites=0x7f04001a;
+        public static final int title_activity_history=0x7f040018;
+        public static final int title_activity_main=0x7f040014;
+        public static final int title_activity_plan_trip=0x7f040016;
+        public static final int title_activity_reuse_trip=0x7f04001b;
     }
     public static final class style {
         public static final int AppTheme=0x7f050000;
