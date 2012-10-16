@@ -5,7 +5,7 @@
 
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="15" />
+        android:targetSdkVersion="8" />
 
     <application
         android:icon="@drawable/ic_launcher"
@@ -59,6 +59,18 @@
         <activity
             android:name=".FavoritesActivity"
             android:label="@string/title_activity_favorites" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ReuseTripActivity"
+            android:label="@string/title_activity_reuse_trip" >
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
