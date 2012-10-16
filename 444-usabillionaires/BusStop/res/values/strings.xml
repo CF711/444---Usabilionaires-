@@ -6,6 +6,13 @@
     <string name="button_fav_hist">Favorites/History</string>
     <string name="button_favorites">View Favorites</string>
     <string name="button_history">View History</string>
+    <string name="button_testfav">Gleason Circle, 11:42AM 11:50AM</string>
+    <string name="button_testhist01">Park Point S, 9:42AM 9:50AM</string>
+    <string name="button_testhist02">Gleason Circle, 3:42PM 3:50PM</string>
+    <string name="button_use_trip">Use this trip</string>
+    <string name="favs_tab">Favorites</string>
+    <string name="hist_tab">History</string>
+    <string name="button_return">Return</string>
     <string name="text_plan_trip">Select which route you would like to take</string>
     <string name="text_browse">Select the bus stop you would like to know more about</string>
     <string name="menu_settings">Settings</string>
@@ -16,5 +23,6 @@
     <string name="title_activity_history">HistoryActivity</string>
     <string name="title_activity_fav_history">FavHistoryActivity</string>
     <string name="title_activity_favorites">FavoritesActivity</string>
+    <string name="title_activity_reuse_trip">ReuseTripActivity</string>
 
 </resources>
