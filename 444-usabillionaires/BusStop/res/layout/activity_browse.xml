@@ -10,7 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/text_browse"
-        tools:context=".BrowseActivity" />
+        tools:context=".BrowseActivity"/>
 
     <Spinner
         android:id="@+id/spinner1"
@@ -34,49 +34,57 @@
                 android:id="@+id/button2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Sol 4:30 4:45" />
+                android:text="Sol 4:30 4:45" 
+        		android:onClick="testBrowse"  />
 
             <Button
                 android:id="@+id/button3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Turf Field 4:35 4:50" />
+                android:text="Turf Field 4:35 4:50" 
+        		android:onClick="testBrowse"  />
 
             <Button
                 android:id="@+id/button4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Colony Manor 4:40 4:55" />
+                android:text="Colony Manor 4:40 4:55" 
+        		android:onClick="testBrowse"  />
 
             <Button
                 android:id="@+id/button5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Perkins Green 4:45 5:00" />
+                android:text="Perkins Green 4:45 5:00" 
+        		android:onClick="testBrowse"  />
 
             <Button
                 android:id="@+id/button6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Sol 4:50 5:05" />
+                android:text="Sol 4:50 5:05" 
+        		android:onClick="testBrowse"  />
 
             <Button
                 android:id="@+id/button7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Colony Manor 4:55 5:10" />
+                android:text="Colony Manor 4:55 5:10" 
+        		android:onClick="testBrowse"  />
 
             <Button
                 android:id="@+id/button8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Perkins Green 5:30 5:45" />
+                android:text="Perkins Green 5:30 5:45" 
+        		android:onClick="testBrowse"  />
 
             <Button
                 android:id="@+id/button9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Colony Manor 6:00 6:15" />
+                android:text="Colony Manor 6:00 6:15" 
+        		android:onClick="testBrowse"  />
 
         </LinearLayout>
 

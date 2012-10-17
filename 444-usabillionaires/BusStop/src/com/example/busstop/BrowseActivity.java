@@ -2,10 +2,12 @@ package com.example.busstop;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
+import android.widget.Button;
 
 public class BrowseActivity extends Activity implements OnItemSelectedListener{
 
@@ -19,6 +21,14 @@ public class BrowseActivity extends Activity implements OnItemSelectedListener{
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.activity_browse, menu);
         return true;
+    }
+    
+    public void testBrowse(View view){
+    	Intent intent = new Intent(this, ReuseTripActivity.class);
+    	Button b = (Button)view;
+    	String message = b.getText().toString();
+    	intent.putExtra(MainActivity.EXTRA_MESSAGE, message);
+    	startActivity(intent);
     }
 
     /*
