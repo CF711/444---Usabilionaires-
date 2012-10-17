@@ -1,6 +1,14 @@
 <resources>
-
+    
     <string name="app_name">Bus Stop</string>
+    <string name="busstop_prompt">Choose a Bus Stop</string>
+	<string-array name="busstop_arrays">
+	    <item>Gleason Residence Hall</item>
+	    <item>Turf Field</item>
+	    <item>Colony Manor</item>
+	    <item>Perkins Green</item>
+	    <item>University Commons</item>
+	</string-array>
     <string name="button_plan_trip">Plan trip</string>
     <string name="button_browse">Browse Bus stops</string>
     <string name="button_fav_hist">Favorites/History</string>
@@ -28,5 +36,5 @@
     <string name="title_activity_fav_history">FavHistoryActivity</string>
     <string name="title_activity_favorites">FavoritesActivity</string>
     <string name="title_activity_reuse_trip">ReuseTripActivity</string>
-
+    
 </resources>
