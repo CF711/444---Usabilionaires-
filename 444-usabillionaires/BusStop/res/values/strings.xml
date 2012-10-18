@@ -14,6 +14,12 @@
     <string name="button_fav_hist">Favorites/History</string>
     <string name="button_favorites">View Favorites</string>
     <string name="button_history">View History</string>
+    <string name="edit_text_trip_name">Current Trip</string>
+    <string name="plan_trip_fav">Fav</string>
+    <string name="plan_trip_clear">Clear</string>
+    <string name="plan_trip_destination">Available destinations:</string>
+    <string name="plan_trip_current_trip_list">Your trip so far...</string>
+    <string name="finish_planning_trip">Finish planning this trip!</string>
     <string name="button_testfav">Gleason Circle, 11:42AM 11:50AM</string>
     <string name="button_testhist01">Park Point S, 9:42AM 9:50AM</string>
     <string name="button_testhist02">Gleason Circle, 3:42PM 3:50PM</string>
@@ -21,9 +27,6 @@
     <string name="favs_tab">Favorites</string>
     <string name="hist_tab">History</string>
     <string name="button_return">Return</string>
-    <string name="text_select_dest">Select your destination</string>
-    <string name="text_another_dest">Add another destination</string>
-    <string name="text_finish_trip">Finish planning this trip</string>
     <string name="text_save_to_favs">Save this trip to Favorites</string>
     <string name="text_plan_trip">Select which route you would like to take</string>
     <string name="text_browse">Select the bus stop you would like to know more about</string>
