@@ -1,10 +1,14 @@
 package com.example.busstop;
 
+import java.util.ArrayList;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 public class FavoritesActivity extends Activity {
 	
@@ -13,6 +17,7 @@ public class FavoritesActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_favorites);
+        
     }
 
     @Override
