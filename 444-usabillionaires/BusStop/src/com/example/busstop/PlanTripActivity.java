@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.ScrollView;
+import android.widget.TextView;
 
 public class PlanTripActivity extends Activity {
 
@@ -38,6 +40,15 @@ public class PlanTripActivity extends Activity {
     }
     
     public void selectDestination(View view){
+    	//gets the text from the selected button
+    	Button b = (Button)view;
+    	TextView txt = new TextView(this);
+    	txt.setText(b.getText());
+    	//now put that message in the scrollview...
+    	ScrollView sv = new ScrollView(this);
+    	// sv = (ScrollView)view.findViewById(R.id.plan_trip_scrollview);
+    	sv.addView(txt);
+    	setContentView(sv);
     }
     
     public void finishTrip(View view){

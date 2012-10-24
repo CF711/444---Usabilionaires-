@@ -1,4 +1,4 @@
- <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
      xmlns:tools="http://schemas.android.com/tools" 
      android:id="@+id/LinearLayout" 
      android:layout_width="match_parent" 
@@ -7,68 +7,69 @@
      android:gravity="bottom|top" 
      android:orientation="vertical">
      
- <LinearLayout 
-	android:layout_height="wrap_content" 
-	android:layout_width="fill_parent" 
-	android:orientation="horizontal">
-	
-  <RadioButton 
-      android:layout_width="wrap_content" 
-      android:layout_height="wrap_content" 
-      android:text="@string/plan_trip_fav" /> 
-      
-  <EditText 
-      android:layout_weight="3" 
-      android:layout_width="0dp" 
-      android:layout_height="wrap_content" 
-      android:text="@string/edit_text_trip_name" /> 
-      
-  <Button 
-      android:layout_width="wrap_content" 
-      android:layout_height="wrap_content" 
-      android:text="@string/plan_trip_clear" /> 
-      
-  </LinearLayout>
-  
-  <TextView 
-      android:layout_width="match_parent" 
-      android:layout_height="wrap_content" 
-      android:text="@string/plan_trip_current_trip_list" /> 
-      
-  <ScrollView 
-      android:layout_width="match_parent" 
-      android:layout_height="100dp" /> 
-      
-  <TextView 
-      android:layout_width="fill_parent" 
-      android:layout_height="wrap_content" 
-      android:text="@string/plan_trip_destination" />
-   
-  <Button 
-      android:layout_width="fill_parent" 
-      android:layout_height="50dp" 
-      android:text="@string/button_testfav" 
-      android:onClick="selectDestination" />
-   
-  <Button 
-      android:layout_width="fill_parent" 
-      android:layout_height="50dp" 
-      android:text="@string/button_testhist01" 
-      android:onClick="selectDestination" />
-   
-  <Button 
-      android:layout_width="fill_parent" 
-      android:layout_height="50dp" 
-      android:text="@string/button_testhist02" 
-      android:onClick="selectDestination" /> 
-      
-  <TextView 
-      android:layout_width="fill_parent" 
-      android:layout_height="50dp" /> 
-      
-  <Button 
-      android:layout_width="fill_parent" 
-      android:layout_height="50dp" 
-      android:text="@string/finish_planning_trip" 
-      android:onClick="finishTrip" /> 
-  </LinearLayout>
+	<LinearLayout 
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent" 
+		android:orientation="horizontal">
+		
+	  <RadioButton 
+	      android:layout_width="wrap_content" 
+	      android:layout_height="wrap_content" 
+	      android:text="@string/plan_trip_fav" /> 
+	      
+	  <EditText 
+	      android:layout_weight="3" 
+	      android:layout_width="0dp" 
+	      android:layout_height="wrap_content" 
+	      android:text="@string/edit_text_trip_name" /> 
+	      
+	  <Button 
+	      android:layout_width="wrap_content" 
+	      android:layout_height="wrap_content" 
+	      android:text="@string/plan_trip_clear" /> 
+	      
+	  </LinearLayout>
+	  
+	  <TextView 
+	      android:layout_width="match_parent" 
+	      android:layout_height="wrap_content" 
+	      android:text="@string/plan_trip_current_trip_list" /> 
+	      
+	  <ScrollView
+	      android:id="@+id/plan_trip_scrollview"
+	      android:layout_width="match_parent" 
+	      android:layout_height="100dp" /> 
+	      
+	  <TextView 
+	      android:layout_width="fill_parent" 
+	      android:layout_height="wrap_content" 
+	      android:text="@string/plan_trip_destination" />
+	   
+	  <Button 
+	      android:layout_width="fill_parent" 
+	      android:layout_height="50dp" 
+	      android:text="@string/button_testfav" 
+	      android:onClick="selectDestination" />
+	   
+	  <Button 
+	      android:layout_width="fill_parent" 
+	      android:layout_height="50dp" 
+	      android:text="@string/button_testhist01" 
+	      android:onClick="selectDestination" />
+	   
+	  <Button 
+	      android:layout_width="fill_parent" 
+	      android:layout_height="50dp" 
+	      android:text="@string/button_testhist02" 
+	      android:onClick="selectDestination" /> 
+	      
+	  <TextView 
+	      android:layout_width="fill_parent" 
+	      android:layout_height="50dp" /> 
+	      
+	  <Button 
+	      android:layout_width="fill_parent" 
+	      android:layout_height="50dp" 
+	      android:text="@string/finish_planning_trip" 
+	      android:onClick="finishTrip" /> 
+</LinearLayout>
