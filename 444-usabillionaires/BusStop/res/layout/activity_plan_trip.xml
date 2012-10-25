@@ -38,7 +38,14 @@
 	  <ScrollView
 	      android:id="@+id/plan_trip_scrollview"
 	      android:layout_width="match_parent" 
-	      android:layout_height="100dp" /> 
+	      android:layout_height="100dp">
+	      
+	      <LinearLayout
+	          android:id="@+id/scroll_layout"
+	          android:orientation="vertical"
+	          android:layout_width="match_parent"
+	          android:layout_height="wrap_content" /> 
+	  </ScrollView>
 	      
 	  <TextView 
 	      android:layout_width="fill_parent" 

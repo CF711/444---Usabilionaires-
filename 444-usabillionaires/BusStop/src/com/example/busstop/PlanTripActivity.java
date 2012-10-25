@@ -1,15 +1,17 @@
 package com.example.busstop;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.view.Menu;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.ListView;
+import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class PlanTripActivity extends Activity {
 
@@ -31,8 +33,10 @@ public class PlanTripActivity extends Activity {
 
         // Assign adapter to ListView
         //listView.setAdapter(adapter);
+        
+        
+        
     }
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.activity_plan_trip, menu);
@@ -40,15 +44,14 @@ public class PlanTripActivity extends Activity {
     }
     
     public void selectDestination(View view){
-    	//gets the text from the selected button
+    	Toast.makeText(this, "Added Route", Toast.LENGTH_SHORT).show();
+    	LinearLayout routes = (LinearLayout)findViewById(R.id.scroll_layout);
     	Button b = (Button)view;
-    	TextView txt = new TextView(this);
-    	txt.setText(b.getText());
-    	//now put that message in the scrollview...
-    	ScrollView sv = new ScrollView(this);
-    	// sv = (ScrollView)view.findViewById(R.id.plan_trip_scrollview);
-    	sv.addView(txt);
-    	setContentView(sv);
+    	String message = b.getText().toString();
+    	TextView textView = new TextView(this);
+        textView.setTextSize(20);
+        textView.setText(message);
+        routes.addView(textView);
     }
     
     public void finishTrip(View view){

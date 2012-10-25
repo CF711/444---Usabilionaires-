@@ -1,9 +1,11 @@
 package com.example.busstop;
 
-import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
+import android.os.Bundle;
 import android.view.Menu;
+import android.view.View;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 public class ReuseTripActivity extends Activity {
@@ -18,11 +20,10 @@ public class ReuseTripActivity extends Activity {
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
 
         // Create the text view
-        TextView textView = new TextView(this);
+        TextView textView = (TextView)findViewById(R.id.text_reuse);
         textView.setTextSize(20);
         textView.setText(message);
         
-        setContentView(textView);
         
 
     }
