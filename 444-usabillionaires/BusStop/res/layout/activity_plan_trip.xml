@@ -16,10 +16,11 @@
 		android:descendantFocusability="beforeDescendants"
 		android:focusableInTouchMode="true">
 		
-	  <RadioButton 
-	      android:layout_width="wrap_content" 
-	      android:layout_height="wrap_content" 
-	      android:text="@string/plan_trip_fav" /> 
+	<CheckBox
+	    android:id="@+id/checkBox1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    style="@android:style/Widget.CompoundButton.Star"/>
 	      
 	  <EditText 
 	      android:layout_weight="3" 

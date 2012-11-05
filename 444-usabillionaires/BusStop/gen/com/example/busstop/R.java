@@ -28,7 +28,7 @@ public final class R {
         public static final int FavHist=0x7f08000e;
         public static final int LinearLayout=0x7f080000;
         public static final int LinearLayout01=0x7f08000b;
-        public static final int LinearLayout1=0x7f080011;
+        public static final int LinearLayout1=0x7f080012;
         public static final int MakeTrip=0x7f08000c;
         public static final int button2=0x7f080003;
         public static final int button3=0x7f080004;
@@ -38,12 +38,13 @@ public final class R {
         public static final int button7=0x7f080008;
         public static final int button8=0x7f080009;
         public static final int button9=0x7f08000a;
-        public static final int menu_settings=0x7f080013;
-        public static final int plan_trip_scrollview=0x7f08000f;
+        public static final int checkBox1=0x7f08000f;
+        public static final int menu_settings=0x7f080014;
+        public static final int plan_trip_scrollview=0x7f080010;
         public static final int scrollView1=0x7f080002;
-        public static final int scroll_layout=0x7f080010;
+        public static final int scroll_layout=0x7f080011;
         public static final int spinner1=0x7f080001;
-        public static final int text_reuse=0x7f080012;
+        public static final int text_reuse=0x7f080013;
     }
     public static final class layout {
         public static final int activity_browse=0x7f030000;
